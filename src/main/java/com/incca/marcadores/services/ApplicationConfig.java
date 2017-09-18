@@ -30,6 +30,8 @@ public class ApplicationConfig extends Application {
      */
     private void addRestResourceClasses(Set<Class<?>> resources) {
         resources.add(com.incca.marcadores.services.CrossOriginResourceSharingFilter.class);
+        resources.add(com.incca.marcadores.services.EquipoControll.class);
+        resources.add(com.incca.marcadores.services.MarcadorControll.class);
     }
     
 }
